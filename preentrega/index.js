@@ -3,8 +3,11 @@ let metodo = args[0];
 let dato = args[1] 
 let mensajeAccion;
 switch (metodo.toUpperCase()) {
-  case "GET":
-    mensajeAccion = "🔍 Recuperando datos del servidor...";
+  case "GET PRODUCTS":
+    mensajeAccion = "Recuperando datos del servidor...";
+    fetch('https://fakestoreapi.com/products')
+    .then(response => response.json())
+    .then(data => console.log(data));
     break;
   case "POST":
     mensajeAccion = `Creando un nuevo registro... ${args[1]}`;
