@@ -1,0 +1,14 @@
+{
+  "name": "preentrega",
+  "version": "1.0.0",
+  "description": "Preentrega del TP curso de node Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Christian Popoff",
+  "license": "MIT",
+  "type": "module" 
+}
